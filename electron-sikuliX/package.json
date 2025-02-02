@@ -1,0 +1,17 @@
+{
+  "name": "electron-sikulix",
+  "version": "1.0.0",
+  "description": "A super simple Electron app in TypeScript with SikuliX tests",
+  "main": "dist/main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "tsc",
+    "postinstall": "electron-rebuild"
+  },
+  "dependencies": {
+    "electron": "^34.0.1",
+    "electron-rebuild": "^3.2.9",
+    "electron-sikulix": "file:",
+    "typescript": "^5.7.3"
+  }
+}

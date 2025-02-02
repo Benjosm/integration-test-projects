@@ -1,0 +1,99 @@
+# General OS/Editor files
+.DS_Store
+*.swp
+*.swo
+*~
+Thumbs.db
+*.orig
+.idea/
+.vscode/
+
+# Android Studio
+android/
+  .gradle/
+  build/
+  captures/
+  .idea/
+  local.properties
+  *.iml
+  .cxx/
+  app/build/
+  gradle-wrapper.jar
+  gradle.properties
+
+# Xcode
+ios/
+  build/
+  DerivedData/
+  *.xcodeproj/*
+  !*.xcodeproj/project.pbxproj
+  *.xcworkspace/*
+  !*.xcworkspace/contents.xcworkspacedata
+  *.xcodeproj/project.xcworkspace/
+  *.xcodeproj/xcuserdata/
+  *.xcuserstate
+  Pods/
+  Carthage/
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.env
+dist/
+coverage/
+.nyc_output/
+.yarn/
+.yarn-cache/
+.yarn/unplugged/
+.yarn/build-state.yml
+.yarn/install-state.gz
+package-lock.json
+yarn.lock
+
+# Python
+__pycache__/
+*.py[cod]
+.python-version
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+*.egg-info/
+.eggs/
+dist/
+build/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints
+.env
+.env.local
+.env.*.local
+
+# Local IDE configurations (add as needed)
+.classpath
+.project
+.settings/
+bin/
+*.launch
+
+# Build artifacts
+*.apk
+*.aab
+*.aar
+*.ipa
+*.dSYM.zip
+*.mobileprovision
+*.xcarchive
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
